@@ -25,6 +25,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  mix-blend-mode: difference;
   flex-direction: row;
   background: rgba(0, 0, 0, 0);
 }
