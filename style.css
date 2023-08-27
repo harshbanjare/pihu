@@ -206,3 +206,66 @@
   border: 2px solid #000000;
   color: #000000;
 }
+
+.events {
+  background: url(events.jpg) no-repeat center center/cover;
+  position: relative;
+}
+
+.events video {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.events .overlay {
+  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding: 5rem;
+  color: white;
+  z-index: 10;
+}
+
+.events .overlay .content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border-radius: 5px;
+}
+
+.events .overlay .content .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
+.events .overlay .content .description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .events .overlay {
+    padding: 0;
+  }
+  .events .overlay .content {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4.5rem;
+  }
+}

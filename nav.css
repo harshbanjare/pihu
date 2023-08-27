@@ -28,6 +28,7 @@ nav {
   mix-blend-mode: difference;
   flex-direction: row;
   background: rgba(0, 0, 0, 0);
+  z-index: 1000;
 }
 
 nav .logo {
@@ -109,6 +110,7 @@ nav ul li a:hover {
   width: 100%;
   transition: all 0.6s ease-in-out;
   margin: 0;
+  z-index: 1001;
 }
 
 .active {
