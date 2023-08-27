@@ -155,6 +155,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .dining .overlay {
+    padding: 2.5rem;
+  }
   .dining .overlay .content {
     width: 100%;
   }
