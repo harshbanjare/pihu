@@ -14,7 +14,7 @@
 
 .hero .overlay .logo {
   margin-top: 10%;
-  margin-left: 10%;
+  text-align: center;
 }
 
 .hero .overlay .logo img {
@@ -91,7 +91,16 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   gap: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .our-story .content .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .our-story .content .grid .p {
+    text-align: center !important;
+  }
 }
 
 .our-story .content .grid .img {
@@ -143,6 +152,12 @@
   display: flex;
   flex-direction: column;
   width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .dining .overlay .content {
+    width: 100%;
+  }
 }
 
 .dining .overlay .content .title {
