@@ -106,7 +106,7 @@ nav ul li a:hover {
   right: -150%;
   height: 100vh;
   padding: 2rem;
-  width: 500px;
+  width: 100%;
   transition: all 0.6s ease-in-out;
   margin: 0;
 }
