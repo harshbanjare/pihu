@@ -14,13 +14,26 @@
           <img src="1.svg" alt="" />
         </a>
       </div>
-      <ul>
+      <ul class="desktop-nav">
         <li><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
+    <ul class="mobile-nav active">
+      <li class="close-mobile">&times;</li>
+      <li><img src="logo.png" width="150px" alt="" /></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
     <section class="hero">
       <div class="overlay">
         <div class="hero-content">
@@ -90,5 +103,7 @@
         </div>
       </div>
     </section>
+
+    <script src="nav.js"></script>
   </body>
 </html>

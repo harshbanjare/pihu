@@ -68,3 +68,76 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+
+/*mobile Navigation*/
+
+@media screen and (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -15px;
+  }
+
+  .mobile-toggle > span {
+    display: block;
+    width: 33px;
+    height: 3px;
+    margin: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000000f6;
+  position: fixed;
+  top: 0;
+  right: -150%;
+  height: 100vh;
+  padding: 2rem;
+  width: 500px;
+  transition: all 0.6s ease-in-out;
+  margin: 0;
+}
+
+.active {
+  right: 0 !important;
+}
+
+.mobile-nav li {
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.mobile-nav li a {
+  display: block;
+  padding: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  mix-blend-mode: difference;
+}
+
+.mobile-nav li a:hover {
+  text-decoration: underline;
+}
+
+.mobile-nav .close-mobile {
+  font-size: 3rem;
+  color: white;
+  position: relative;
+  top: -8%;
+  right: -40%;
+  cursor: pointer;
+}
