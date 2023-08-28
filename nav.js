@@ -17,8 +17,8 @@ $(function () {
   });
 });
 
-const scroll_to = (section) => {
+const scroll_to = (section, toggle) => {
   console.log(section);
   window.scrollTo(0, document.querySelector(section).offsetTop - 100);
-  toggle_nav();
+  toggle && toggle_nav();
 };

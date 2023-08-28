@@ -60,16 +60,20 @@ nav ul li {
   padding: 0 1rem;
 }
 
-nav ul li a {
+nav ul li button {
   display: block;
   padding: 1rem;
+  font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
   mix-blend-mode: difference;
 }
 
-nav ul li a:hover {
+nav ul li button:hover {
   text-decoration: underline;
 }
 

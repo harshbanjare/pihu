@@ -29,10 +29,12 @@
         </a>
       </div>
       <ul class="desktop-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><button onclick="scroll_to('#home',false)">Home</button></li>
+        <li>
+          <button onclick="scroll_to('#services',false)">Services</button>
+        </li>
+        <li><button onclick="scroll_to('#gallery',false)">Gallery</button></li>
+        <li><button onclick="scroll_to('footer',false)">Contact Us</button></li>
       </ul>
       <div class="mobile-toggle">
         <span></span>
@@ -43,10 +45,10 @@
     <ul class="mobile-nav">
       <li class="close-mobile">&times;</li>
       <li><img src="media/logo.png" width="150px" alt="" /></li>
-      <li><button onclick="scroll_to('#home')">Home</button></li>
-      <li><button onclick="scroll_to('#services')">Services</button></li>
-      <li><button onclick="scroll_to('#gallery')">Gallery</button></li>
-      <li><button onclick="scroll_to('#home')">Contact Us</button></li>
+      <li><button onclick="scroll_to('#home',true)">Home</button></li>
+      <li><button onclick="scroll_to('#services',true)">Services</button></li>
+      <li><button onclick="scroll_to('#gallery',true)">Gallery</button></li>
+      <li><button onclick="scroll_to('footer',true)">Contact Us</button></li>
     </ul>
     <section class="hero" id="home">
       <div class="overlay">
