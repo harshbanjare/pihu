@@ -6,6 +6,20 @@
     <title>The Pihu Resort</title>
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -16,8 +30,8 @@
       </div>
       <ul class="desktop-nav">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
       <div class="mobile-toggle">
@@ -85,7 +99,7 @@
       </div>
     </section>
 
-    <section class="dining">
+    <section class="dining" id="services">
       <div class="overlay">
         <div class="content">
           <div class="title">
@@ -113,19 +127,152 @@
             The Pihu Resort
           </div>
           <div class="description">
-            Get ready to groove to electrifying beats spun by our sensational
-            DJ, and let the party come alive under the starlit sky. Enjoy daily
+            Get ready to groove to
+            <span class="accent"> electrifying beats </span> spun by our
+            sensational DJ, and let the party come alive under the starlit sky.
+            Enjoy
+            <span class="accent">daily</span>
             star-studded performances featuring renowned dancers, singers, and
             celebrities that promise a diverse range of entertainment. At The
             Pihu Resort, each day offers a unique experience where you can
-            immerse yourself in the magic of the moment, dance to the rhythm of
-            life, and create memories that last a lifetime.
+            immerse yourself in the
+            <span class="accent"> magic of the moment</span>, dance to the
+            <span class="accent">rhythm of life</span>, and create memories that
+            last a lifetime.
           </div>
         </div>
       </div>
     </section>
-    
+    <section class="gallery" id="gallery">
+      <div class="title">
+        <span class="accent">Gallery:</span> A Glimpse of Paradise
+      </div>
+      <div class="carousel owl-carousel owl-theme">
+        <div class="item">
+          <img src="https://wallpaperaccess.com/full/276233.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="https://images2.alphacoders.com/677/677605.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="https://images3.alphacoders.com/905/905479.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img
+            src="https://getwallpapers.com/wallpaper/full/c/7/3/929758-vertical-summer-background-wallpaper-1920x1200-desktop.jpg"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img src="https://wallpaperaccess.com/full/3014596.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img
+            src="https://www.hdnicewallpapers.com/Wallpapers-Download/Fast-Food-Dishes-for-Takeaway-in-Bar-4K-Wallpapers"
+            alt=""
+          />
+        </div>
+        <div class="item">
+          <img src="https://wallpapercave.com/wp/wp6181354.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="https://wallpaperaccess.com/full/5655394.jpg" alt="" />
+        </div>
+      </div>
+    </section>
 
+    <section class="testimonials">
+      <div class="title">
+        <span class="accent">Testimonials:</span> What Our Guests Say
+      </div>
+
+      <div class="testimonials-container">
+        <div class="card">
+          <div class="img">
+            <img
+              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg"
+              alt=""
+            />
+          </div>
+          <div class="title">"<span class="accent">Serene </span> Oasis"</div>
+          <div class="statement">
+            “A tranquil haven with top-notch service and heavenly cuisine. Left
+            us rejuvenated and planning our next visit.” - Mark S.
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img
+              src="https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/short/linkedin-profile-picture-maker/dummy_image/thumb/004.webp"
+              alt=""
+            />
+          </div>
+          <div class="title">
+            "<span class="accent">Luxury </span> Redefined"
+          </div>
+          <div class="statement">
+            "Elegant rooms, spa treatments, and beachfront beyond compare.<br />
+            An unforgettable experience." - Sarah D.
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img
+              src="https://media.istockphoto.com/id/1386479313/photo/happy-millennial-afro-american-business-woman-posing-isolated-on-white.webp?b=1&s=170667a&w=0&k=20&c=ahypUC_KTc95VOsBkzLFZiCQ0VJwewfrSV43BOrLETM="
+              alt=""
+            />
+          </div>
+          <div class="title">
+            "Family Fun<span class="accent"> Perfection</span>"
+          </div>
+          <div class="statement">
+            “A tranquil haven with top-notch service and heavenly cuisine. Left
+            us rejuvenated and planning our next visit.” - Mark S.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location">
+      <div class="title">
+        <span class="accent">Location:</span> Where Paradise Awaits
+      </div>
+      <div class="map" style="width: 100%">
+        <iframe
+          width="90%"
+          height="500"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=The%20Baga%20Beach%20Resort+(The%20Baga%20Beach%20Resort)&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="logo">
+        <img src="media/logo.svg" alt="" />
+      </div>
+
+      <div class="contact">
+        <div class="title">Contact Us</div>
+        <div class="email">
+          Email:
+          <a href="mailto:management@thepihu.in"> management@thepihu.in </a>
+        </div>
+        <div class="phone">
+          Phone: <a href="tel:+91 9876543210">+91 9876543210</a>
+        </div>
+      </div>
+
+      <div class="address">
+        <div class="title">Address</div>
+        <div class="line">The Pihu Resort</div>
+        <div class="line">Baga Beach, Goa</div>
+        <div class="line">India</div>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
