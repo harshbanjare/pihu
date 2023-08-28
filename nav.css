@@ -133,16 +133,20 @@ nav.scrolled {
   list-style-type: none;
 }
 
-.mobile-nav li a {
+.mobile-nav li button {
   display: block;
-  padding: 1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
   font-weight: 600;
   text-decoration: none;
   color: #fff;
   mix-blend-mode: difference;
+  cursor: pointer;
 }
 
-.mobile-nav li a:hover {
+.mobile-nav li button:hover {
   text-decoration: underline;
 }
 

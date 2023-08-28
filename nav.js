@@ -19,8 +19,6 @@ $(function () {
 
 const scroll_to = (section) => {
   console.log(section);
-  document.querySelector(section).scrollIntoView({
-    behavior: "smooth",
-  });
+  window.scrollTo(0, document.querySelector(section).offsetTop - 100);
   toggle_nav();
 };
