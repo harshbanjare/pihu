@@ -24,7 +24,8 @@ nav {
   left: 0;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0 2rem;
   mix-blend-mode: difference;
   flex-direction: row;
   background: rgba(0, 0, 0, 0);
@@ -41,7 +42,7 @@ nav .logo a {
 }
 
 nav .logo img {
-  height: 100px;
+  height: 72px;
 }
 
 nav ul {
