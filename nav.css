@@ -28,7 +28,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0 2rem;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   flex-direction: row;
   background: rgba(0, 0, 0, 0);
   z-index: 1000;
@@ -44,7 +44,7 @@ nav .logo a {
 }
 
 nav .logo img {
-  height: 72px;
+  height: 52px;
 }
 
 nav ul {
@@ -73,6 +73,12 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+nav.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 /*mobile Navigation*/
 
 @media screen and (max-width: 768px) {
@@ -86,7 +92,6 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin-top: -15px;
   }
 
   .mobile-toggle > span {
@@ -96,6 +101,9 @@ nav ul li a:hover {
     margin: 5px;
     background-color: #fff;
     transition: all 0.3s ease-in-out;
+  }
+  .mobile-toggle > span.scrolled {
+    background-color: #000 !important;
   }
 }
 

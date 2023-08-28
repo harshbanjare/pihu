@@ -135,6 +135,87 @@
   text-align: right;
 }
 
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+.services .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  width: 80%;
+}
+
+.services .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000000;
+  text-align: center;
+  margin: 1rem 1rem;
+}
+
+.services .services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.services .services-container .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 2rem;
+  background: #ffffff;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.services .services-container .card .icon {
+  height: 80px;
+  width: 80px;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.services .services-container .card .icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.services .services-container .card .service-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000000;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.services .services-container .card .description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #000000;
+  text-align: justify;
+  font-style: italic;
+}
+
 .dining {
   background: url(media/dining.jpg) no-repeat center center/cover;
 }
