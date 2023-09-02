@@ -115,6 +115,10 @@ nav.scrolled-dark {
   .mobile-toggle > span.scrolled {
     background-color: #000 !important;
   }
+
+  .mobile-toggle > span.scroll-dark {
+    background-color: #fff !important;
+  }
 }
 
 .mobile-nav {

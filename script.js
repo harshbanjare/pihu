@@ -25,8 +25,14 @@ const nav_observer = new IntersectionObserver(
     console.log(e[0].intersectionRatio);
     if (e[0].intersectionRatio > 0.5) {
       document.querySelector("#nav_bar").classList.add("scrolled-dark");
+      document.querySelectorAll(".mobile-toggle > span").forEach((e) => {
+        e.classList.add("scroll-dark");
+      });
     } else if (e[0].intersectionRatio < 0.1) {
       document.querySelector("#nav_bar").classList.remove("scrolled-dark");
+      document.querySelectorAll(".mobile-toggle > span").forEach((e) => {
+        e.classList.remove("scroll-dark");
+      });
     }
   },
   {
