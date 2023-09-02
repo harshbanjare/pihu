@@ -83,6 +83,12 @@ nav.scrolled {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+nav.scrolled-dark {
+  background-color: #000 !important;
+  transition: background-color 200ms linear;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 /*mobile Navigation*/
 
 @media screen and (max-width: 768px) {
