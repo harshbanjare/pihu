@@ -84,9 +84,9 @@ nav.scrolled {
 }
 
 nav.scrolled-dark {
-  background-color: #000 !important;
+  background-color: #00000090 !important;
   transition: background-color 200ms linear;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.778);
 }
 
 /*mobile Navigation*/
