@@ -135,6 +135,130 @@
   text-align: right;
 }
 
+.dance-floor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background: rgba(0, 0, 0, 0.261); */
+  padding: 2rem;
+  position: relative;
+}
+
+/*skewed box*/
+.dance-floor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 1rem);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 0, 131, 0.7035407913165266) 0%,
+    rgba(140, 0, 0, 1) 70%,
+    rgba(131, 0, 0, 1) 100%
+  );
+  transform: skewY(-10deg);
+  z-index: -1;
+}
+.dance-floor > .upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+}
+
+.dance-floor > .upper > .left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 1rem;
+}
+
+.dance-floor > .upper > .left > .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.dance-floor > .upper > .left > .description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.dance-floor > .upper > .right {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+  width: 50%;
+}
+.dance-floor > .upper > .right > img {
+  height: 300px;
+  width: 100%;
+  /* margin: 2rem; */
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 0;
+}
+.dance-floor > .lower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dance-floor > .lower > .right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  width: 50%;
+  margin-left: 2rem;
+}
+
+.dance-floor > .lower > .right > .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.dance-floor > .lower > .right > .description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.dance-floor > .lower > .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  width: 50%;
+}
+
+.dance-floor > .lower > .left > img {
+  height: 300px;
+  width: 100%;
+  /* margin: 2rem; */
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0.8rem 0;
+}
+
 .services {
   display: flex;
   justify-content: center;
@@ -203,7 +327,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  color: #000000;
+  color: #ffffff;
   margin: 1rem 0;
   text-align: center;
 }
@@ -212,7 +336,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 0.8rem;
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   font-style: italic;
 }
