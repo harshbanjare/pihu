@@ -141,7 +141,61 @@
       </div>
     </section>
 
+    <div class="restaurant-a">
+      <video id="restaurant_bg_vid" src="media/food.mp4" loop muted></video>
+
+      <script>
+        const vid = document.getElementById("restaurant_bg_vid");
+        window.addEventListener("touchstart", function videoStart() {
+          vid.play();
+          window.removeEventListener("touchstart", videoStart);
+        });
+      </script>
+
+      <div class="overlay">
+        <div class="video">
+          <video src="media/food-2.mp4" autoplay loop muted controls></video>
+        </div>
+        <!--Family Restaurant-->
+        <div class="content">
+          <div class="title">
+            <span class="accent">Family Restaurant:</span> A Culinary Journey
+          </div>
+          <div class="description">
+            Our Family Restaurant offers a wide range of cuisines that will
+            leave you and your family craving for more. Experience unmatched
+            culinary delights at our restaurant. Our menu blends global
+            inspiration with local flavors, resulting in exquisite dishes that
+            celebrate taste and innovation. Join us for an unforgettable dining
+            journey that redefines luxury.
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="dark" id="nav_dark">
+      <div class="restaurant-b">
+        <div class="overlay">
+          <!--Fine Dining Restaurant-->
+          <div class="content">
+            <div class="title">
+              <span class="accent">Fine Dining Restaurant:</span> A Culinary
+              Journey
+            </div>
+            <div class="description">
+              Our Fine Dining Restaurant offers a wide range of cuisines that
+              will leave you craving for more. Experience unmatched culinary
+              delights at our restaurant. Our menu blends global inspiration
+              with local flavors, resulting in exquisite dishes that celebrate
+              taste and innovation. Join us for an unforgettable dining journey
+              that redefines luxury.
+            </div>
+          </div>
+          <div class="image">
+            <img src="media/restaurant.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
       <section class="dining">
         <div class="overlay">
           <div class="content">
