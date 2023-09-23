@@ -851,8 +851,9 @@ iframe {
   flex-direction: column;
   width: 70%;
   padding: 1.5rem;
-  margin-top: 3rem;
+  text-align: right;
   border-radius: 5px;
+  margin-top: 3rem;
 }
 
 .restaurant-b .overlay .content .title {
@@ -866,7 +867,7 @@ iframe {
 .restaurant-b .overlay .content .description {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #ffffff;
   margin: 1rem 0;
 }
@@ -892,10 +893,12 @@ iframe {
 @media screen and (max-width: 768px) {
   .restaurant-b .overlay {
     flex-direction: column;
+    padding: 2rem;
   }
 
   .restaurant-b .overlay .content {
     width: 100%;
     margin-top: 5rem;
+    text-align: center;
   }
 }
